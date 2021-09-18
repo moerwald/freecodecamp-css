@@ -1,0 +1,91 @@
+
+
+h2:hover{
+    color: red;
+}
+
+h2[class=subtitle]{
+    color:brown;
+}
+
+.paragraph_colored {
+    background-color: #249fa3;
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.subtitle{
+    color: chocolate;
+}
+
+
+#services{
+    color: rgb(146, 161, 146);
+}
+
+
+img[alt^=x]{
+    border-radius: 20px;
+    opacity: 1;
+    border: 2px solid black ;
+    padding: 1px;
+}
+
+/*
+li:only-child{
+    color:steelblue;
+}
+*/
+
+td:only-child{
+    color: teal;
+}
+
+td::before {
+    content: "";
+    border: 2px solid purple;
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    left: 1px;
+}
+
+/*
+#google-link:link{
+    color: purple;
+
+}
+
+#google-link:visited{
+    color: green;
+}
+*/
+
+h2 + a {
+    color: red;
+}
+
+/* Generel sibling selector */
+input + button {
+    display: block;
+    color: purple;
+    border-radius: 3px;
+    background-color: yellow;
+}
+
+/* Select every child */
+/*
+ul li {
+    color: green;
+}
+*/
+
+/* Select DIRECT child */
+ul > li {
+    color: blue;
+}
+
+form > * {
+    display: block;
+}

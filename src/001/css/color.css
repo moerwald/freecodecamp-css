@@ -1,0 +1,23 @@
+
+#title {
+    color: rgb(186, 133, 9)
+}
+
+.subtitle {
+    color: rgb(213, 122, 11)
+}
+
+body {
+    background: linear-gradient(to right, #DECBA4, #3E5151);
+}
+
+#service-image{
+    height: 400px;
+    width: 70%;
+
+    background: radial-gradient(circle, red , blue , green, yellow);
+}
+
+img {
+    border-radius: 2%;
+}

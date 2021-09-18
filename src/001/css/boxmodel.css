@@ -1,0 +1,11 @@
+
+#about-us-image {
+    height: 400px;
+
+    border: .5em solid rgb(19, 151, 7);
+    border-radius: 1em;
+    background-color: rgba(219, 14, 140, 0.226);
+
+    padding: .5em;
+    margin: 1em;
+}
