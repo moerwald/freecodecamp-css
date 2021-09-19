@@ -1,7 +1,13 @@
 
+body {
+    text-transform: lowercase;
+    text-align: justify;
+    font-size: 1.15em;
+    font-family: 'Architects Daughter', sans-serif;
+}
 
 h2:hover{
-    color: red;
+    color: yellow;
 }
 
 h2[class=subtitle]{
@@ -88,4 +94,58 @@ ul > li {
 
 form > * {
     display: block;
+}
+
+#about-us-image {
+    height: 400px;
+
+    border: .5em solid rgb(19, 151, 7);
+    border-radius: 1em;
+    background-color: rgba(219, 14, 140, 0.226);
+
+    padding: .5em;
+    margin: 1em;
+}
+
+#title {
+    color: rgb(186, 133, 9)
+}
+
+.subtitle {
+    color: rgb(213, 122, 11)
+}
+
+body {
+    background: linear-gradient(to right, #DECBA4, #3E5151);
+}
+
+#service-image{
+    height: 400px;
+    width: 70%;
+
+    background: radial-gradient(circle, red , blue , green, yellow);
+}
+
+img {
+    border-radius: 2%;
+}
+
+.link {
+    text-decoration: underline;
+}
+
+
+#title {
+    font-weight: 400;
+    font-family: 'Pacifico', sans-serif;
+}
+
+img {
+    border-radius: 5em;
+    display: block;
+    margin: .5em;
+}
+
+.italics{
+    font-style: italic;
 }
